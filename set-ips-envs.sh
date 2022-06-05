@@ -28,6 +28,7 @@ for ip in $(cat ips.txt); do
         echo -e "\033[1;32m tp copied successfully to $ip\033[0m"
     else
         echo -e "\033[1;31m tp copy failed to $ip\033[0m"
+        exit 1
     fi
     scp -r install-commons.sh $IP_USER@$ip:~/
     echo "\033[1;32m $ip is ready to run the install-commons.sh script\033[0m"
