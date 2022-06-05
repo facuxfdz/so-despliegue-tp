@@ -1,6 +1,6 @@
 #/bin/bash
 
-TP_FOLDER_PATH=< PATH TO tp-2022-1c-SIGSEGV >
+TP_FOLDER_PATH=< PATH TO TP FOLDER >
 IP_USER=<VM USER>
 
 # Check if folder not found
